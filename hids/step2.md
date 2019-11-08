@@ -4,7 +4,7 @@ Per llançar l'instal·lador tan sols cal executar `./install.sh`{{execute T1}}
 # Configuració
 Un cop dins l'assitent del instal·lador hem d'anar especificant els paràmetres de la nostra instal·lació.  Anem pas a pas
 - Ens demana el idioma que volem utiltizar, en el nostre cas `es`{{execute T1}}
-- Ens apareix un //baner// alertant que iniciem la instal·lació per tant hem de fer ENTER `  `{{execute T1}}
+- Ens apareix un //baner// alertant que iniciem la instal·lació per tant hem de fer ` `{{execute T1}}
 1.- El següent pas ès molt important, hem de triar el **tipus de instal·lació** per la pràctica triarem `local`{{execute T1}} per a fer una instal·lació en un únic equip, però si desplemen una instal·lació en xarxa caldria emprar servidor o agente.
 2.- Ara ens demana on volem instal·lar OSSEC.  L'opció per defecte de `/var/ossec`{{execute T1}} ja ens serveix.
 3.1- Ens demana si volem rebre alertes per correu electrònic, aquesta és una manera ideal per estar al cas de les incidències, per tant diem que si: `s`{{execute T1}}.  I tot seguit hem d'escriure el nostre email on volem rebre les notificacions, i després el servidor smtp a utilitzar per enviar el correu (el `alt3.gmail-smtp-in.l.google.com`{{execute T1}} ja farà el fet).

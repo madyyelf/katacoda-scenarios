@@ -1,11 +1,11 @@
 # Exploració de l'aplicació.
 Ara veurem una mica **com funciona el servei** de OSSEC i **com està organitzat** el programari a nivell de carpetes i arxius de manera que el puguem remenar i **adaptar a les nostres necessitats**.
 ## Servei
-L'aplicació funciona mitjançant **dimoni**, que com tots els serveis de GNU/Linux podem gestionar amb la comanda system.
-- **Estat**: Per verificar l'estat del sistema: `system ossec status`{{execute T1}}
-- **Iniciar**: Per iniciar el dimoni si estiguès aturat: `system ossec start`{{execute T1}}
-- **Parar**: Per parar el dimoni: `system ossec stop`{{execute T1}}
-- **Reiniciar**: Per reiniciar el servei i que re-carregui configuracions: `system ossec restart`{{execute T1}}
+L'aplicació funciona mitjançant **dimoni**, que com tots els serveis de GNU/Linux podem gestionar amb la comanda `service`.
+- **Estat**: Per verificar l'estat del sistema: `service ossec status`{{execute T1}}
+- **Iniciar**: Per iniciar el dimoni si estiguès aturat: `service ossec start`{{execute T1}}
+- **Parar**: Per parar el dimoni: `service ossec stop`{{execute T1}}
+- **Reiniciar**: Per reiniciar el servei i que re-carregui configuracions: `service ossec restart`{{execute T1}}
 # Estructura de directoris
 Tota la **instal·lació** està a `/var/ossec`
 ## Directoris importants

@@ -22,10 +22,11 @@ Els registres els podem consultar a `/var/ossec/logs/alerts/alerts.log`.  També
 `cat /var/ossec/logs/alerts/alerts.log`{{execute T1}}
 
 Veiem quelcom semblant a això:
-
+```
 ** Alert 1573211133.985: mail - ossex,attack,
 2019 Nov 08 11:05:33 host01->ossec-logcollector
 Rule: 592 (level 8) -> 'Log file size reduced.'
 ossec: File size reduced (inode remained): '/var/log/auth.log'.
+```
 
 Amb la qual cosa OSSEC ha detectat una reducció en el tamany de l'arxiu *auth.loh*, mitjançant la regla 592, classificant-ho com alerta de nivell 8 (una de les més altres) i per tant l'accó que realitzarà serà enviar un email.

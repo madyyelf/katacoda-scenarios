@@ -35,3 +35,5 @@ Amb la qual cosa OSSEC ha **detectat una reducció en el tamany** de l'arxiu *au
 Si hem configurat correctament el correu electrònic, OSSEC ens enviarà un email d'alerta.  De nou això pot trigar alguns minuts.
 
 Un altre "error" típic és que el gestor de correu classifiqui l'alerta com *spam*, per tant també haurem de **mirar la carpeta de spam*** i fins i tot sería intel·ligent crear regles específiques per aquest tipus de correus.
+
+***NOTA***: Amb el servidor *SMTP* que hem configurat per defecte, no aconseguirem enviar emails, ja que Google ha passat a utilitzat *SSL* per aquest servei.  Les alternatives poden ser muntar un servidor pròpi o configurar el servdior de Gmail a nivell de sistema de missatgeria del pròpi sistema operatiu.  En tot cas això s'escapa del objectiu de la sessió.

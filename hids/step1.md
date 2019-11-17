@@ -1,8 +1,12 @@
 # Preparació del entorn
+OSSEC a priori no necessita cap pre-requisit que no instal·li ell mateix.  Tanmateix si volem que ens envii email d'alerta haurem de configurar l'enviament de correu del sistema operatiu tot instal·lant POSTFIX.
 ## Configuració del sistema per utilitzar Gmail com correu sortint per defecte
+***ATENCIÓ***: Aquesta part, si ho feu des de KataCoda, us ho podeu saltar ja que aquest entorn no permetrà les connexions SMTP cap al exterior.  S'hi ha afegit per si voleu fer l'activitat en VM o directament en el vostre Host.
 ### Instal·lació de paqueteria
+Instal·lem mailutils i Postfix junt amb la paqueteria necessària per realitzar les connexions TLS amb Gmail:
 `apt install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules`{{execute T1}}
 ### Configuració de Postfix
+Modifiquem o afegim els següents paràmetres de la configuració de Postfix:
 `nano /etc/postfix/main.cf`{{execute T1}}
 
 relayhost = [smtp.gmail.com]:587

@@ -9,7 +9,7 @@ Instal·lem mailutils i Postfix junt amb la paqueteria necessària per realitzar
 Modifiquem o afegim els següents paràmetres de la configuració de Postfix:
 `nano /etc/postfix/main.cf`{{execute T1}}
 
-relayhost = [smtp.gmail.com]:587
+`relayhost = [smtp.gmail.com]:587
 
 smtp_sasl_auth_enable = yes
 
@@ -21,7 +21,7 @@ smtp_tls_CApath = /etc/ssl/certs
 
 smtpd_tls_CApath = /etc/ssl/certs
 
-smtp_use_tls = yes
+smtp_use_tls = yes''{{copy}}
 
 Sortim nano.
 ### Configuració de les credencials de Gmail

@@ -1,6 +1,6 @@
 # Preparació del entorn
 ## Configuració del sistema per utilitzar Gmail com correu sortint per defecte
-`asudo apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules`{{execute T1}}
+`apt install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules`{{execute T1}}
 `nano /etc/postfix/main.cf`{{execute T1}}
 
 relayhost = [smtp.gmail.com]:587
@@ -14,9 +14,9 @@ smtp_use_tls = yes
 Sortim nano.
 
 `echo "[smtp.gmail.com]:587    USERNAME@gmail.com:PASSWORD" > /etc/postfix/sasl_passwd`{{copy}}
-`sudo chmod 400 /etc/postfix/sasl_passwd`{{execute T1}}
-`sudo postmap /etc/postfix/sasl_passwd`{{execute T1}}
-`sudo /etc/init.d/postfix reload`{{execute T1}}
+`chmod 400 /etc/postfix/sasl_passwd`{{execute T1}}
+`postmap /etc/postfix/sasl_passwd`{{execute T1}}
+`/etc/init.d/postfix reload`{{execute T1}}
 
 # Activació google
 Accés d'aplicacions menys segures

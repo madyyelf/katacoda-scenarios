@@ -3,7 +3,8 @@ En aquest escenari veurem com instal·lar i configurar un HIDS (Host Intruder De
 Els passos que realitzarem seràn aquests:
 
 1. Descàrrega de l'aplicatiu i preparació.
-2. Instal·lació i configuració.
-3. Exploració de l'aplicació.
-4. Proves de funcionament i alarmes.
-5. Personalització de regles.
+2. Configuració del sistema d'enviament d'emails (Postfix)
+3. Instal·lació i configuració.
+4. Exploració de l'aplicació.
+5. Proves de funcionament i alarmes.
+6. Personalització de regles.

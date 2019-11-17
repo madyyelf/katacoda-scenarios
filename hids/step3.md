@@ -12,7 +12,7 @@ Un cop dins l'assitent del instal·lador hem d'anar especificant els paràmetres
 
 2.- Ara ens demana on volem instal·lar OSSEC.  L'opció per defecte de `/var/ossec`{{execute T1}} ja ens serveix.
 
-3.1- Ens demana si volem rebre alertes per correu electrònic, aquesta és una manera ideal per estar al cas de les incidències, per tant diem que si: `s`{{execute T1}}.  I tot seguit **hem d'escriure el nostre email** on volem rebre les notificacions, i després el servidor smtp a utilitzar per enviar el correu (el alt3.gmail-smtp-in.l.google.com, per tant `s`{{execute T1}} ja farà el fet).
+3.1- Ens demana si volem rebre alertes per correu electrònic, aquesta és una manera ideal per estar al cas de les incidències, per tant diem que si: `s`{{execute T1}}.  I tot seguit **hem d'escriure el nostre email** on volem rebre les notificacions, i després el servidor smtp a utilitzar per enviar el correu, en el nostre cas com hem configurat el Postfix serà`localhost`{{execute T1}}.
 
 3.2.- Quan ens demana sobre el "servidor de integridad del sistema" es refereix a verificar que els canvis en el sistema siguin controlats (per exemple, que els arxius log del sistema no perdin tamany).  Somen que si: `s`{{execute T1}}
 
@@ -32,3 +32,6 @@ Un últim missatge informa que tot s'ha instal·lat correctament `s`{{execute T1
 Per deixar el sistema net, eliminarem la carpeta de insta·lació:
 `cd ..`{{execute T1}}
 `rm -R ossec-hids-2.8.3`{{execute T1}}
+
+# Configurar l'enviament d'emails
+Si hem creat el servidor Postfix i configurat correctament, indicarem a OSSEC on ens ha d'enviar les alertes.

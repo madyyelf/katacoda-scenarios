@@ -21,7 +21,7 @@ smtp_tls_CApath = /etc/ssl/certs
 
 smtpd_tls_CApath = /etc/ssl/certs
 
-smtp_use_tls = yes''{{copy}}
+smtp_use_tls = yes`{{copy}}
 
 Sortim nano.
 ### Configuració de les credencials de Gmail

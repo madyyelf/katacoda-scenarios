@@ -18,5 +18,10 @@ Sortim nano.
 `sudo postmap /etc/postfix/sasl_passwd`{{execute T1}}
 `sudo /etc/init.d/postfix reload`{{execute T1}}
 
+# Activació google
+Accés d'aplicacions menys segures
+
+https://myaccount.google.com/u/2/lesssecureapps
+
 ## Proves
 `echo "Proves enviament email per la activitat de NIDS OSSEC." | mail -s "Proves enviament email IDS" username@gmail.com`{{copy}}

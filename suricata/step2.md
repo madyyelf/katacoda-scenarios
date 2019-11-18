@@ -14,3 +14,18 @@ Les regles en aquesta versió de Suricata estàn situades a /var/lib/suricata/ru
 Alguns repositoris de regles per *Suricata*:
 - [emergingthreats.net](https://rules.emergingthreats.net/open/suricata/rules/).
 - [suricata-rules](https://github.com/suricata-rules/suricata-rules).
+
+# Reinici del servei i solució de problema
+`service suricata restart`{{execute T1}}
+
+`cat /var/log/suricata/suricata.log`{{execute T1}}
+
+`service suricata stop`{{execute T1}}
+
+`rm /var/run/suricata.pid`{{execute T1}}
+
+`service suricata start`{{execute T1}}
+
+`service suricata status`{{execute T1}}
+
+`cat /var/log/suricata/suricata.log`{{execute T1}}

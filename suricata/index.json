@@ -2,7 +2,7 @@
   "title": "Introducció al NIDS Suricata",
   "description": "Instal·lació, configuració, personalització i verificació del NIDS Suricata",
   "difficulty": "Intermediate",
-  "time": "10 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {

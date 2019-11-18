@@ -7,7 +7,7 @@
 - Afegir una nova regla `alert icmp any any -> any any (msg: “ICMP detected”; sid:1; rev:1; classtype:icmp-custom-event;)`{{copy}}.
 
 Tb classificador:
-- `nano /etc/suricata/classification.config`{{execute T1}
+- `nano /etc/suricata/classification.config`{{execute T1}}
 - `config classification: icmp-custom-event, ICMP event,2`{{copy}}
 
 ## Reiniciar el servei per aplicar canvis

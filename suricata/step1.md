@@ -1,3 +1,8 @@
+# Punt d'instal·lació
+Els NIDS necessiten veure el màxim tràfic de xarxa que puguem per detectar el màxim d'anomalies, tanmateix insta·lar-los enmig de la sortida cap a la WAN, com si fos un *proxy*, pot generar problemes greus de rendiment.
+
+La opció més utilitzada i recomanable és realitzar un *PORT MIRRORING* al switch principal de manera que el tràfic surti directe cap a la WAN (i des de la WAN) i alhora sigui enviat cap a un altre port, on hi instal·larem el nostre NIDS que podrà analitzar tranquilament els paquets amb la seguretat que no afectarà el rendiment de la xarxa.
+
 # Instal·lació
 Per fer la instal·lació de suricata utilitzarem el repositoris oficials de Ubuntu 19.04 de manera que sempre dispossem d'actualitzacions.
 

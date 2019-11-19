@@ -6,3 +6,6 @@ Blocar els pings a `8.8.8.8`:
 Proves:
 - `ping 8.8.4.4`{{execute T1}}
 - `ping 8.8.8.8`{{execute T1}}
+
+
+`ip a`{{execute T2}}

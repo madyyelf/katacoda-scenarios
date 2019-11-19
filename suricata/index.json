@@ -30,7 +30,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "showdashboard": false,
+    "dashboards": [{"name": "ko-fi", "href": "https://ko-fi.com/raulgimenezherrada"}],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu1904"

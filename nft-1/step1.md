@@ -1,1 +1,2 @@
-step1
+# Instal·lació
+`apt install nftables`{{execute T1}}

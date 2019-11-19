@@ -30,7 +30,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
     "uieditorpath": "/etc/suricata/suricata.yaml"
   },
   "backend": {

@@ -30,10 +30,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "iframe"
   },
   "backend": {
     "imageid": "ubuntu1904",
-    "imageid": "ubuntu1904"
+    "url": "https://ko-fi.com/raulgimenezherrada"
   }
 }

@@ -30,8 +30,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/etc/suricata/suricata.yaml"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
     "imageid": "ubuntu1904"

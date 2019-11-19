@@ -31,7 +31,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "URL", "href": "https://ko-fi.com/raulgimenezherrada"}],
+    "dashboards": [{"name": "Convida'm a un café", "href": "https://ko-fi.com/raulgimenezherrada"}],
     "uilayout": "terminal-iframe"
   },
   "backend": {

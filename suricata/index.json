@@ -30,7 +30,7 @@
     }
   },
   "environment": {
-    "showdashboard": false,
+    "showdashboard": true,
     "dashboards": [{"name": "ko-fi", "href": "https://ko-fi.com/raulgimenezherrada"}],
     "uilayout": "terminal-iframe"
   },

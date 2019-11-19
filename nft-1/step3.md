@@ -1,3 +1,4 @@
 pas3
 
-nft add rule filter output ip protocol icmp ip daddr 8.8.8.8 drop
+Blocar els pings a `8.8.8.8`:
+- `nft add rule filter sortida ip protocol icmp ip daddr 8.8.8.8 drop`{{execute T1}}

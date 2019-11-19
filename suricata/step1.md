@@ -15,3 +15,7 @@ Després afegim els repositoris de *Suricata* oficials:
 
 Finalment tan sols cap instal·lar el paquet de *Suricata* pròpiament dit:
 - `sudo apt-get install suricata `{{execute T1}}
+
+
+- `echo hola1`{{execute HOST1}}
+- `echo hola2`{{execute HOST2}}

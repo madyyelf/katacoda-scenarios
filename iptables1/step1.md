@@ -1,1 +1,1 @@
-a
+`iptables -L`{{execute T1}}

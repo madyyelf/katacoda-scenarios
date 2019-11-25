@@ -6,7 +6,6 @@
   "details": {
     "steps": [
       {
-        "code": "setup.sh",
         "title": "Step 1",
         "text": "step1.md"
       },
@@ -31,8 +30,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uieditorpath": "/usr/bin/tallafocs.sh"
+    "uilayout": "terminal",
   },
   "backend": {
     "imageid": "ubuntu1904"

@@ -1,3 +1,6 @@
+# Eliminar regles anteriors
+- `iptables -f`{{copy}}
+
 # Política per defecte
 Llista negre
 

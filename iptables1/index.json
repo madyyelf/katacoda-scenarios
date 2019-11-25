@@ -30,7 +30,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/usr/bin/iptables.sh"
   },
   "backend": {
     "imageid": "ubuntu1904"

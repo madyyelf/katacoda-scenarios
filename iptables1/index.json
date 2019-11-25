@@ -31,7 +31,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/usr/bin/iptables.sh"
+    "uieditorpath": "/usr/bin/tallafocs.sh"
   },
   "backend": {
     "imageid": "ubuntu1904"

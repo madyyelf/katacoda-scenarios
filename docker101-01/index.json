@@ -33,7 +33,7 @@
       "text": "finish.md"
     }
   },
-  "environment": {bash},
+  "environment": {"uilayout": "terminal"},
   "backend": {
     "imageid": "ubuntu1904"
   }

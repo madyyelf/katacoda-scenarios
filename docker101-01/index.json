@@ -1,8 +1,8 @@
 {
   "title": "Instalde Docker  Hello World",
   "description": "Installaci DockerHello World",
-  "difficulty": "Beginner",
-  "time": "10 minutes",
+  "difficulty": "Intermediate",
+  "time": "10",
   "details": {
     "steps": [
       {

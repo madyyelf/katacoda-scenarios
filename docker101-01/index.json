@@ -1,6 +1,6 @@
 {
-  "title": "Instal·lació de Docker i Hello World!",
-  "description": "Instal·lació de Docker i Hello World!",
+  "title": "Instal·lació de Docker + Hello World!",
+  "description": "Instal·lació de Docker + Hello World!",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -20,10 +20,6 @@
       {
         "title": "Step 4",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
     ],
     "intro": {
@@ -32,7 +28,8 @@
     "finish": {
       "text": "finish.md"
     }
-  }, "environment": {
+  },
+  "environment": {
     "uilayout": "terminal"
   },
   "backend": {

@@ -14,3 +14,6 @@ Per eliminar una regla necessitem el seu *handle*.  Per veure-ho podem llistar u
 - `nft list ruleset -a`{{execute T1}}
 Si, per exemple, la regla que volem eliminar té en *handle 2* farem:
 - `nft delete rule DENEGAR SORTIDA handle 2`{{execute T1}}
+Ara podem verificar que realment hem eliminat la regla i que tornem a poder fer ping al 8.8.8.8
+- `nft list ruleset`{{execute T1}}
+- `ping 8.8.8.8`{{execute T1}}

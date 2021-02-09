@@ -4,7 +4,7 @@ OSSEC a priori no necessita cap pre-requisit que no instal·li ell mateix.  Tanm
 ***ATENCIÓ***: Aquesta part, si ho feu des de KataCoda, us ho podeu saltar ja que aquest entorn no permetrà les connexions SMTP cap al exterior.  S'hi ha afegit per si voleu fer l'activitat en VM o directament en el vostre Host.
 ### Instal·lació de paqueteria
 Instal·lem mailutils i Postfix junt amb la paqueteria necessària per realitzar les connexions TLS amb Gmail:
-`apt install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules`{{execute T1}}
+`apt install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules build-essentials`{{execute T1}}
 ### Configuració de Postfix
 Modifiquem o afegim els següents paràmetres de la configuració de Postfix:
 `nano /etc/postfix/main.cf`{{execute T1}}
